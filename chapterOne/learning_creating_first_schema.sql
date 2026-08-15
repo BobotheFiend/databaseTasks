@@ -7,7 +7,7 @@ CREATE TABLE natives (
     email VARCHAR(100) UNIQUE
 );
 
-INSERT INTO natives (CustomerID, name, nickname, email)
+INSERT INTO natives (id, name, nickname, email)
 VALUES 
 (1, 'NNAMDI ANIAKOR', 'BOBO', 'nnamdi@gmail.com'),
 (2, 'TOSIN OLATUNBOSUN', 'TOS', 'tos@gmail.com'),
@@ -16,5 +16,39 @@ VALUES
 (5, 'PRAISE NWANKWO', 'GREAT GUY', 'nwankwao@gmail.com'),
 (6, 'QUADRI ARIYO', 'RYAN', 'fasthands@gmail.com'),
 (7, 'TONYE HORSEFALL', 'TYGER', 'tonye@gmail.com'),
-(8, '')
-
+(8, 'ISIRE OLUYEMI', 'GEN-Z MAMA', 'yemi@gmail.com'),
+(9, 'GRACE ONWEREM', 'FACILI GRACE', 'igbograce@gmail.com'),
+(10, 'GRACE OLAYEMI', 'GRACYICEY', 'yorubagrace@gmail.com'),
+(11, 'PRAISE MANDIK', 'PRAISE', 'pankeys@gmail.com'),
+(12, 'KEHINDE OLATUNJI', 'KENNY', 'faketwin@gmail.com'),
+(13, 'ARAMIDE ASIWAJU', 'MIDE-APC', 'mide@gmail.com'),
+(14, 'NNMASICHUKWU ONYENAYA', 'BOMBELLA', 'precious@gmail.com'),
+(15, 'COLLECT UMEH', 'GOLDEN STUDENT', 'collect@gmail.com'),
+(16, 'MERCY PRATT', 'MERCY', 'prattmercy@gmail.com'),
+(17, 'SHARON PRINCEWILL', 'LUCID', 'sexysharon@gmail.com'),
+(18, 'EMEKA DIKE', 'DIKE-O-CLOCK', 'oclockministry@gmail.com'),
+(19, 'OLAWALE TAOFEEK', 'BIGGIE', 'ola@gmail.com'),
+(20, 'KEHINDE TAOFEEK', 'SMALLIE', 'mynameis@gmail.com'),
+(21, 'AZEEZ ABDULLHAI', 'AZ', 'wallhai@gmail.com'),
+(22, 'OLUKAYODE ASEMUDARA', 'KAY-SOLAR', 'kay@gmail.com'),
+(23, 'DAVID SOFUYI', 'ODUMEJE', 'david@gmail.com'),
+(24, 'SHUKURAT', 'SHUKU', 'shukuna@gmail.com'),
+(25, 'SEUNFUNMI DONWA', 'FEMALE-DIKE', 'seun@gmail.com'),
+(26, 'ADEOLA OTUNAYO', 'DEOLA', 'otunayo@gmail.com'),
+(27, 'GBEMI AJULO', 'GBEMI GARRI MARTINS',  'ggmartins@gmail.com'),
+(28, 'VINCENT OPURUM', 'PHAROH', 'letmypeoplego@gmail.com'),
+(29, 'SAMUEL BOSSUA', 'NINJA', 'nowyouseemenowyoudont@gmail.com'),
+(30, 'AISOSA IBI', 'THE AISOSA', 'aisosa@gmail.com'),
+(31, 'ISRAEL ADEDOKUN', 'ISRAEL-NIGHT', 'adedokun@gmail.com'),
+(32, 'RHEMA DESTINY', 'BIG-BIG-THINGS', 'Bigthings@gmail.com'),
+(33, 'SOLOMON ADE', 'BIG DEV', 'solomon@gmail.com'),
+(34, 'MIRACLE ELIJAH', 'BIG DUKE', 'jalingo@gmail.com'),
+(35, 'ADAMU DIVINE', 'ADAMU', 'divineadamu@gmail.com'),
+(36, 'DANIEL BENJAMIN', 'BEN_DAN', 'tallest@gmail.com'),
+(37, 'EDMOND', 'EDMOND', 'edmond@gmail.com'),
+(38, 'JOEL OGOR', 'JOEL', 'ogor@gmail.com'),
+(39, 'CLEMENT NWAFOR', 'CEO', 'clem@gmail.com'),
+(40, 'ISSAC URBAN', '.KPOMASI', 'kpomxml@gmail.com'),
+(41, 'GODWIN NWASAH', 'GODWIN', 'nwasah@gmail.com'),
+(42, 'MUSA OLAREWANJU', 'BROWN', 'musa@gmail.com'),
+(43, 'PROSPER LUCKY', 'OVER', 'isover@gmail.com');
